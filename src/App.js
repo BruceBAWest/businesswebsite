@@ -17,7 +17,7 @@ function App() {
                 <Link to="/contact">Contact</Link>
               </Navigation>
           </Header>
-          <Drawer title="Title">
+          <Drawer title="Everest Consulting">
               <Navigation>
                 <Link to="/">Home</Link>
                 <Link to="/resume">Resume</Link>
