@@ -2,12 +2,12 @@ import React, {
     Component
 } from 'react';
 
-class About extends Component {
+class Project extends Component {
     render() {
         return ( 
-        <div> <hi>About</hi></div>
+        <div><hi>Project</hi></div>
         )
     }
 }
 
-export default About;
+export default Project;
