@@ -56,6 +56,7 @@ class Projects extends Component {
                             <IconButton name="share" />
                         </CardMenu>
                     </Card>
+                    
                 </div>
             )
         } else if(this.state.activeTab === 1) {
