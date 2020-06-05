@@ -7,6 +7,24 @@ class Projects extends Component {
         this.state = { activeTab: 0};
     }
 
+    render() {
+        return(
+            <div className="category-tabs">
+                <Tabs activeTab={this.state.activeTab} onChange={(tabId) => this.setState({ activeTab: tabId })} ripple>
+                    <Tab>Node</Tab>
+                    <Tab>React</Tab>
+                    <Tab>JavaScript</Tab>
+                    <Tab>MongoDB</Tab>
+                </Tabs>
+                <Grid>
+                    <Cell col={12}>
+                        <div className="content">{this.toggleCategories()}</div>
+                    </Cell>
+                </Grid>
+            </div>
+        )
+    }
+
     toggleCategories() {
         if(this.state.activeTab === 0){
             return(
@@ -210,24 +228,6 @@ class Projects extends Component {
                 </div>
             )
         }
-    }
-
-    render() {
-        return(
-            <div className="category-tabs">
-                <Tabs activeTab={this.state.activeTab} onChange={(tabId) => this.setState({ activeTab: tabId })} ripple>
-                    <Tab>Node</Tab>
-                    <Tab>React</Tab>
-                    <Tab>JavaScript</Tab>
-                    <Tab>MongoDB</Tab>
-                </Tabs>
-                <Grid>
-                    <Cell col={12}>
-                        <div className="content">{this.toggleCategories()}</div>
-                    </Cell>
-                </Grid>
-            </div>
-        )
     }
 }
 
