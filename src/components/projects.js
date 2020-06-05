@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Tabs, Tab } from 'react-mdl';
+import { Tabs, Tab, Grid, Cell } from 'react-mdl';
 
 class Projects extends Component {
     constructor(props) {
@@ -37,7 +37,11 @@ class Projects extends Component {
                     <Tab>MongoDB</Tab>
                 </Tabs>
                 <section className="projects-grid">
-                    {this.toggleCategories()}
+                    <Grid className="projects-grid">
+                        <Cell col={12}>
+                            <div className="content">{this.toggleCategories()}</div>
+                        </Cell>
+                    </Grid>
                 </section>
             </div>
         )
