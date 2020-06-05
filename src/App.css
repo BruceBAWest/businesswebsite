@@ -3,3 +3,50 @@
   background: -webkit-linear-gradient(to right, #2F80ED, #56CCF2);  /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(to right, #2F80ED, #56CCF2); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
+
+.landing-grid {
+  background: #56CCF2;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #2F80ED, #56CCF2);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #2F80ED, #56CCF2); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.landing-image {
+  height: 20em;
+  padding-top: 2em;
+}
+
+.banner-text {
+  background-color: black;
+  opacity: .4;
+  width: 75%;
+  margin: auto;
+  border-radius: 1em;
+}
+
+.banner-text h1 {
+  color: white;
+  font-size: 4em;
+  font-weight: bold;
+  padding: .5em;
+  margin: auto;
+}
+
+.banner-text h2 {
+  color: white;
+  font-size: 2em;
+  padding: .5em;
+  margin: auto;
+}
+
+.banner-text p {
+  color: white;
+  font-size: 1.5em;
+  padding: .5em;
+  margin: auto;
+}
+
+.banner-text hr {
+  border-top: 5px dotted white;
+  width: 50%;
+  margin: auto;
+}
