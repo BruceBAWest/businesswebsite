@@ -1,8 +1,8 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+## Everest Consulting
 
-In the project directory, you can run:
+This is a fictional business. If you're reading this, Everest Consulting, Ltd. doesn't exist. Sorry. We won't really make software for you. 
 
 ### `npm start`
 
