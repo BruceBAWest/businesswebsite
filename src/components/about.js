@@ -5,7 +5,6 @@ class About extends Component {
     render() {
         return(
             <div className="about-grid">
-                {/* Bruce team info card */}
                 <Card shadow={5} style={{width: '70%', margin: 'auto', marginTop: '1em'}}>
                     <CardTitle className="center-about-image">
                         <img 
@@ -13,14 +12,14 @@ class About extends Component {
                             alt="everest-logo.png"
                         />
                     </CardTitle>
-                    {/* bruce name */}
+                    {/* company name */}
                     <CardText className="about-heading">
                         <h2>Everest Consulting, Ltd.</h2>
                         <p>A Software Development Consultancy</p>
                     </CardText>
                     {/* dotted hr line break for style */}
                     <hr/>
-                    {/* Bruce bio */}
+                    {/* about bio */}
                     <CardText className="about-bio">
                         <p>
                             Everest Consulting is a fictional Software Development Consultancy specializing in slapping together
