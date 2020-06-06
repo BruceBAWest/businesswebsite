@@ -66,7 +66,6 @@
 }
 
 
-
 /* Contact page CSS */ 
 .contact-body {
   margin: auto;
@@ -123,6 +122,7 @@
   padding-left: 2rem;
 }
 
+
 /* begin team page CSS */
 .team-grid {
   display: flex;
@@ -177,3 +177,45 @@
   text-decoration: none;
 }
 
+/* About Page CSS */
+.about-grid {
+  display: flex;
+}
+
+.about-grid hr {
+  border-top: 5px dotted black;
+  width: 50%;
+  margin: auto;
+}
+
+.about-grid img {
+  margin-left: auto;
+  margin-right: auto;
+  width: 20%;
+}
+
+.about-heading h2 {
+  font-family: 'Anton';
+  text-align: center;
+  color: black;
+  margin-bottom: .01em;
+  margin-top: .01em;
+}
+.about-heading p {
+  font-family: 'Oxygen';
+  font-weight: Bold;
+  text-align: center;
+  font-size: 2em;
+  padding-top: .25em;
+  padding-bottom: .01em;
+  margin-bottom: .01em;
+}
+
+.about-bio p {
+  width: 80%;
+  font-family: 'Oxygen';
+  font-weight: Bold;
+  margin: auto;
+  margin-bottom: .01em;
+  padding-bottom: .01em;
+}

@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Grid, Cell, Card, CardTitle, CardText, CardMenu, CardActions, Button, IconButton } from 'react-mdl';
+import { Grid, Cell, Card, CardTitle, CardText, CardActions, Button } from 'react-mdl';
 
 class Resume extends Component {
     render() {
@@ -39,9 +39,9 @@ class Resume extends Component {
                                         <a href="http://brucebawest.com/" rel="noopener noreferrer" target="_blank">Portfolio</a>
                                     </Button>
                                 </CardActions>
-                                <CardMenu style={{color: '#fff'}}>
+                                {/* <CardMenu style={{color: '#fff'}}>
                                     <IconButton name="share" />
-                                </CardMenu>
+                                </CardMenu> */}
                             </Card>
                             {/* Kushal team info card */}
                             <Card shadow={5} style={{width: '30em', margin: 'auto'}}>
@@ -78,9 +78,9 @@ class Resume extends Component {
                                     </Button>
                                     </div>
                                 </CardActions>
-                                <CardMenu style={{color: '#fff'}}>
+                                {/* <CardMenu style={{color: '#fff'}}>
                                     <IconButton name="share" />
-                                </CardMenu>
+                                </CardMenu> */}
                             </Card>
                         </div>
                     </Cell>

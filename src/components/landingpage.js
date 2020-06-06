@@ -18,7 +18,7 @@ class Landing extends Component {
                             <h2>A Software Development Consultancy</h2>
                             <hr/>
                             <p>
-                                Java | JavaScript | NodeJS | ReactJS | MongoDB | HTML/CSS
+                                JavaScript | NodeJS | ReactJS | MongoDB | Express | HTML/CSS
                             </p>
                         </div>
                     </Cell>

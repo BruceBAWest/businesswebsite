@@ -13,10 +13,10 @@ class Resume extends Component {
                         />
                         <h2>Everest Consulting, Ltd.</h2>
                         <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                            Mauris sagittis pellentesque lacus eleifend lacinia...
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                            Mauris sagittis pellentesque lacus eleifend lacinia...
+                            Probably don't actually contact us. There are many reasons why you shouldn't. This business
+                            is fictional. While the "co-founders" are real people, their bios are fictional, and they
+                            co-founded nothing. We don't consult. Also, if you weren't convinced this wasn't real yet, 
+                            our contact info is bogus. 
                         </p>
                     </Cell>
                     <Cell col={6}>
